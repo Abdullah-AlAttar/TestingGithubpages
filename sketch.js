@@ -32,7 +32,7 @@ function draw() {
       //try rect or ellipse
      // rect(x * vScale, y * vScale, w * anotherSlider.value(), w * anotherSlider.value());
       ellipse(x * vScale, y * vScale, w * anotherSlider.value());
-      arc(a, b, c, d, start, stop, [mode])
+      //arc(a, b, c, d, start, stop, [mode])
      // line(x*vScale, y*vScale, x +1, y +1);
     }
   }
