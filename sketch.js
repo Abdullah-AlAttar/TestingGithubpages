@@ -29,7 +29,7 @@ function draw() {
       var w = map(bright, 0, 255, 0, vScale);
      // noStroke();  //try commenting this 
       fill(bright, bright, 100);
-      //try rect or ellipse
+
      // rect(x * vScale, y * vScale, w * anotherSlider.value(), w * anotherSlider.value());
       ellipse(x * vScale, y * vScale, w * anotherSlider.value());
       //arc(a, b, c, d, start, stop, [mode])
