@@ -30,8 +30,8 @@ function draw() {
      // noStroke();  //try commenting this 
       fill(bright, bright, 100);
       //try rect or ellipse
-      rect(x * vScale, y * vScale, w * anotherSlider.value(), w * anotherSlider.value());
-      //ellipse(x * vScale, y * vScale, w * anotherSlider.value());
+     // rect(x * vScale, y * vScale, w * anotherSlider.value(), w * anotherSlider.value());
+      ellipse(x * vScale, y * vScale, w * anotherSlider.value());
      // line(x*vScale, y*vScale, x +1, y +1);
     }
   }
