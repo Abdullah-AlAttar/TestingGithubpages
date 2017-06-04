@@ -31,7 +31,8 @@ function draw() {
       fill(bright, bright, 100);
       //try rect or ellipse
      // rect(x * vScale, y * vScale, w * anotherSlider.value(), w * anotherSlider.value());
-      //ellipse(x * vScale, y * vScale, w * anotherSlider.value());
+      ellipse(x * vScale, y * vScale, w * anotherSlider.value());
+      arc(a, b, c, d, start, stop, [mode])
      // line(x*vScale, y*vScale, x +1, y +1);
     }
   }
